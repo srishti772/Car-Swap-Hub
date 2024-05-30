@@ -1,0 +1,11 @@
+.custom-badge1 {
+  background-color: var(--primary) !important;
+  margin-top: -1px;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.custom-title {
+  align-items: center;
+  align-content: center;
+}

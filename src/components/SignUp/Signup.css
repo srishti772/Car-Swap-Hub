@@ -1,0 +1,12 @@
+.login-link {
+  padding: 2px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.toast {
+  position: absolute;
+  top: 4em;
+  z-index: 4;
+  font-weight: bold;
+}

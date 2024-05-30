@@ -1,0 +1,65 @@
+/* Card.css */
+
+.custom-card {
+  min-width: 15em;
+}
+
+.card-container {
+  text-align: left !important;
+}
+
+.price {
+  color: grey;
+  font-size: small;
+  font-weight: 800;
+}
+
+.location {
+  font-size: smaller;
+  line-height: 0.1;
+}
+
+.icon-styles {
+  color: black;
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 1em;
+}
+
+.card-footer {
+  font-size: x-small;
+  color: black;
+  background-color: var(--primary);
+  border: none;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+
+.footer-col {
+  background-color: transparent;
+  border-radius: 5%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-badge {
+  width: fit-content;
+  height: 2em;
+  z-index: 1;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  background-color: var(--primary) !important;
+  color: gray;
+}
+
+.compare-badge {
+  width: fit-content;
+  background-color: var(--secondary);
+  padding: 0.6em;
+  font-size: 0.8em;
+  color: black;
+  border-radius: 1em;
+}

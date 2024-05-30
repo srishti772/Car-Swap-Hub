@@ -1,0 +1,74 @@
+.details {
+  background-color: rgba(240, 240, 240, 0.8) !important;
+  line-height: normal;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: left;
+
+}
+
+.form-control-md,
+.form-select-md {
+  background-color: rgba(240, 240, 240, 0.3) !important;
+  width: 100%;
+  border-color: white !important;
+
+}
+
+.leftPane h1,
+h2,
+h3 {
+  color: gray;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.leftPane {
+  display: 'inline-flex';
+  height: 100%;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+
+.progressInfo {
+  list-style-type: none;
+  text-align: left;
+  display: block;
+
+}
+
+.progressInfo li {
+  display: block;
+}
+
+
+.btn-primary {
+  border-radius: 0;
+  border: 0;
+}
+
+
+.progresspane {
+  padding: 2em;
+  border-radius: 1em;
+  margin-left: 0em;
+  padding-top: 5em;
+
+}
+
+@media (max-width:967px) {
+  aside {
+    display: block;
+    background-color: var(--primary);
+    padding: 0em;
+    margin-bottom: 1em;
+    position: fixed;
+  }
+
+  .progresspane {
+    padding-top: 2em;
+  
+  }
+
+}

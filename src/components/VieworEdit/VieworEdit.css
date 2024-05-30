@@ -1,0 +1,175 @@
+.gallery {
+  width: 100%;
+}
+
+.text-true {
+  border: none;
+  outline: none !important;
+  display: inline;
+}
+
+.text-false .form-control,
+.form-control-sm,
+.SearchPage .form-select {
+  background-color: var(--secondary) !important;
+  outline: none !important;
+  display: inline;
+
+  background: none !important;
+}
+
+.form-control-lg,
+.text-true,
+.form-select-md {
+  background-color: var(----primary) !important;
+  border-color: white !important;
+}
+
+.text-true:focus,
+.text-true:disabled {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  appearance: none !important;
+}
+
+.text-true:disabled::-ms-expand,
+.text-true:disabled::after {
+  display: none !important;
+  content: none !important;
+}
+
+.text-true::after .text-true::after {
+  display: none !important;
+  content: none !important;
+}
+
+.label {
+  width: fit-content !important;
+  padding: 0;
+  padding-top: 0.2em;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.button-true,
+.AddImg-true {
+  display: none;
+}
+
+.button-false,
+.AddImg-false {
+  position: 'relative';
+  right: 2em;
+  z-index: 3;
+}
+
+.thumbnails {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: 1em;
+  margin-right: auto;
+}
+
+.thumbImg,
+.AddImg-true,
+.AddImg-false {
+  width: 12em;
+  margin: 0.3em;
+  height: 7em;
+  object-fit: cover;
+}
+
+.locationdetails {
+  background-color: var(--primary) !important;
+  line-height: normal;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.action-button {
+  border: 2px white solid;
+  border-radius: 0.5em !important;
+}
+
+.custom-count {
+  width: fit-content;
+  height: 2em;
+  z-index: 1;
+  position: relative;
+  top: 3%;
+  left: 2%;
+  background-color: var(--primary) !important;
+  color: gray;
+}
+
+.custom-featuresList {
+  line-height: 1em;
+  font-size: 0.9em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+.custom-accordion .accordion-item .accordion-header {
+  background-color: var(--primary);
+  /* Replace 'yourColor' with the desired background color */
+  color: #fff;
+  /* Set text color to make it visible on the background */
+  padding: 0;
+  border-bottom: 0;
+}
+
+.accordion-button {
+  font-weight: 1900 I !important;
+  background-color: var(--primary) !important;
+}
+
+.specifications {
+  background-color: var(--secondary);
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-top: 2em;
+}
+
+.specifications h2 {
+  padding: 0.4em;
+}
+
+.custom-featuresList li {
+  margin-left: 1em;
+  padding: 0.3em;
+}
+
+.custom-featuresList .form-check-input {
+  background-color: var(--primary) !important;
+  color: black;
+
+  border-color: grey !important;
+}
+
+.custom-featuresList .form-check-input:checked {
+  background-color: var(--primary) !important;
+}
+
+.custom-featuresList .form-check-input:checked {
+  background-color: grey !important;
+  border-color: grey !important;
+}
+
+.flex-item {
+  flex-basis: calc(40%);
+}
+
+.custom-carbooking {
+  background-color: var(--secondary) !important;
+  font-size: small;
+}
+
+.custom-carbooking tr {
+  background-color: var(--primary) !important;
+}

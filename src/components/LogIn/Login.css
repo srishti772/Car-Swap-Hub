@@ -1,0 +1,31 @@
+.sucess-toast{
+    background-color: #c0e7d0;
+    color: #0d6831;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.failure-toast{
+    background-color: #f9e1e5;
+    color: #af233a;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.failure-toast-header{
+    background-color: #f9e1e5;
+    color: #af233a;
+}
+
+.failure-toast-header strong{
+    font-size: 1rem;
+}
+
+.failure-toast-body{
+    margin-left: 10px;
+}
+
+.signup-link {
+    padding: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+}

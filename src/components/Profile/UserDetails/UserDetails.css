@@ -1,0 +1,7 @@
+.btn-delete{
+    background-color: var(--danger) !important;
+}
+
+.btn-save{
+    background-color: var(--success) !important;
+}

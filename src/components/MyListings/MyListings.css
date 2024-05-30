@@ -1,0 +1,60 @@
+.custom-table {
+  border: 1em;
+  width: auto;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: left;
+  font-weight: 800;
+  color: grey;
+  display: inline;
+}
+
+.custom-badge-booking {
+  width: fit-content;
+  height: 2em;
+  z-index: 1;
+
+  background-color: var(--primary) !important;
+  color: gray;
+}
+
+.cutom-action-buttons {
+  background-color: transparent !important;
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+}
+
+.allbookings {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 1px;
+  font-size: 0.7em;
+}
+
+.custom-table-u th,
+.custom-table-u td {
+  padding: 1px;
+  font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+  background-color: var(--secondary) !important;
+}
+th {
+  background-color: var(--primary) !important;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--primary) !important;
+}

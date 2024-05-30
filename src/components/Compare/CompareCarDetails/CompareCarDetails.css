@@ -1,0 +1,65 @@
+h4 h3 {
+  margin: 0;
+}
+
+.container-car {
+  text-align: left;
+  max-height: 20rem;
+}
+.car-specs-header {
+  font-size: 1.2em;
+}
+.car-specs-container {
+  text-align: left;
+}
+.car-specs-detail {
+  font-size: 1em;
+  padding: 12px;
+  background-color: var(--primary);
+  color: var(--text-contrast);
+  font-weight: 600;
+}
+
+.car-image {
+  max-height: 20rem;
+  max-width: 25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contrast {
+  color: var(--text-contrast);
+}
+.price {
+  font-size: 1.4rem;
+}
+
+.raiting-cointainer {
+  position: relative;
+}
+
+.rating-value {
+  font-size: 1.4em;
+  color: var(--text-contrast);
+  font-weight: 800;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.rating-star {
+  width: 54px;
+  height: 60px;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.status {
+  color: white;
+  padding: 6px;
+  border-radius: 24px;
+  background-color: var(--text-contrast);
+}

@@ -1,0 +1,15 @@
+.sidebar {
+  text-align: left;
+  padding: 3.5em;
+  border-radius: 1em;
+}
+
+.listitem {
+  padding: 1em;
+  background-color: var(--secondary);
+}
+
+.list-group-item.active {
+  background-color: var(--primary) !important;
+  border-color: var(--secondary);
+}

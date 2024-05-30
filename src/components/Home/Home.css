@@ -1,0 +1,55 @@
+.btn-primary-send {
+  background-color: var(--primary) !important;
+  border-radius: 100%;
+  border: none;
+}
+
+.btn-primary {
+  border: none;
+  background-color: var(--primary) !important;
+}
+
+footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: small;
+  padding: 1em;
+}
+li {
+  padding: 5px 0;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.col-lg-2.col-md-3.col-sm-6 {
+  text-align: left;
+}
+
+.text-light {
+  color: grey !important;
+}
+
+.fs-base {
+  font-size: 1rem !important;
+}
+
+.col-lg-3.pb-2.mb-4 {
+  text-align: left;
+}
+
+.d-flex.flex-wrap.justify-content-center.order-lg-2 {
+  text-decoration: none;
+  color: grey;
+}
+
+.cus-dark-color {
+  background-color: var(--primary);
+}
+
+.input-group-text input {
+  color: grey;
+}

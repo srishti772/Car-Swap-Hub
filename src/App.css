@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --background-color: #f2efa0;
+  --font-color: #656fce;
+  --primary: #d5eade;
+  --secondary: #f0f0f0;
+  --danger: #fa383e;
+  --success: #07bc0c;
+  --text-contrast: #ff8000;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.cars-container {
+  position: relative;
+
+  overflow: hidden;
+  padding: 25px;
+}
+
+.latestcars {
+  display: flex;
+  background-color: #c1121f;
+}
+
+.Features {
+  color: grey;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  font-size: smaller;
+  text-align: center;
+  justify-content: center;
+}
+
+.Header h1 {
+  font-weight: bold;
+  font-size: 7em;
+  line-height: 0.8em;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Header b {
+  -webkit-text-stroke: 6px white;
+  color: var(--primary);
+  margin-left: 0.5px;
+}
+
+.Features h6 {
+  font-size: large;
+  font-weight: bold;
+  color: grey;
+}
+
+.Features h2,
+.LatestCars h2 {
+  font-weight: 900;
+  color: #2c2c2c;
+}
+
+.exp {
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 7em;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.expBody {
+  font-weight: 400;
+  line-height: 1em;
+  font-size: 1.5em;
+  padding: 1em;
+  width: 70%;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.expItem {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 25em;
+}
+
+.SearchBar {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  /*background-color: rgba(193,18,31,0.3);*/
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  font-size: 24px;
+}
+
+.customList {
+  align-items: center;
+  display: flex;
+}
+.customListItem {
+  padding: 2%;
+  border-radius: 0;
+  border-bottom: 0px dotted grey;
+  width: 20em;
+  height: 20em;
+}
+
+.gridCol {
+  margin-left: 0;
+  padding: 0;
+  flex: 0;
+}
+
+.SearchInputs {
+  background-color: black;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.SearchBarRow {
+  display: inline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+  width: 0.3em; /* Set the width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary); /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary); /* Color of the scrollbar handle */
+  border-radius: 6px; /* Round the corners of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary); /* Change color on hover */
+}
+
+@media (max-width: 967px) {
+  .Header h1 {
+    font-size: 5em;
+  }
+
+  .expItem {
+    width: 25em;
+    height: 25em;
+  }
+  .exp {
+    font-size: 4em;
+  }
+
+  .SearchBarRow {
+    display: block;
+  }
+
+  .SearchBarCol {
+    margin-top: 10em;
+    padding: 0.6em;
+  }
+
+  .expBody {
+    font-size: 1em;
+  }
+
+  .customListItem {
+    width: 15em;
+    height: 15em;
+  }
+}
